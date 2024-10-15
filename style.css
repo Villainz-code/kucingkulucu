@@ -1,0 +1,65 @@
+*,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+   background: 
+    linear-gradient(white,wheat)
+}
+.navbar {}
+.ulnavbar {
+    height: 20vh;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+.linavbar{
+    list-style-type: none;
+    padding: 20px;
+    margin: 8px;
+    font-size: 20px;
+}
+.linavbar :hover {
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)ms;
+    -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)ms;
+    -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)ms;
+    -ms-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)ms;
+    -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)ms;
+    background-color: darkgrey;
+    transition-delay: .1s;
+    transform-style: preserve-3d;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.anavbar{
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+    font-size: 20px;
+    font-style: oblique;
+    color:black;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    height: 40vh;
+}
+.imgcontent {}
+.content2 {}
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    height: 20vh;
+}
+.p {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    height: 20vh;
+}
